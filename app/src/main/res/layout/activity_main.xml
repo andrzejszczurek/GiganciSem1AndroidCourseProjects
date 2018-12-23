@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#7c8074">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_main_navigate_calculator"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Kalkulator"
+            android:layout_margin="10dp"
+            android:background="#8cb7e9"/>
+
+        <Button
+            android:id="@+id/btn_main_navigate_mail_sender"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Mail Sender"
+            android:layout_margin="10dp"
+            android:background="#8cb7e9"/>
+
+        <Button
+            android:id="@+id/btn_main_navigate_google_maps"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Google Maps"
+            android:layout_margin="10dp"
+            android:background="#8cb7e9"/>
+
+        <Button
+            android:id="@+id/btn_main_navigate_dyktafon"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Dyktafon"
+            android:layout_margin="10dp"
+            android:background="#8cb7e9"/>
+
+        <Button
+            android:id="@+id/btn_main_navigate_konwerter_tekstu_na_mowe"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Konwerter tekstu na mowe"
+            android:layout_margin="10dp"
+            android:background="#8cb7e9"/>
+
+        <Button
+            android:id="@+id/btn_main_navigate_list_with_sh"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Lista z Shared Preferences"
+            android:layout_margin="10dp"
+            android:background="#8cb7e9"/>
+
+        <Button
+            android:id="@+id/btn_main_navigate_data_picker"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. Data Picker"
+            android:layout_margin="10dp"
+            android:background="#8cb7e9"/>
+
+    </LinearLayout>
+</ScrollView>

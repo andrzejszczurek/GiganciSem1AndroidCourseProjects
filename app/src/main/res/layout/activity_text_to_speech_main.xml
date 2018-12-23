@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="#969393"
+    tools:context=".KonwerterTekstuNaMowe.TextToSpeechMainActivity">
+
+    <TextView
+        android:layout_margin="10dp"
+        android:text="Konwerter tekstu"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:hint="Wprowadź tekst"
+        android:layout_margin="10dp"
+        android:id="@+id/et_text_to_speech_text"
+        android:layout_width="match_parent"
+        android:lines="5"
+        android:background="#6c6a6a"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/btn_text_to_speech_convert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rozpocznij konwertowanie"/>
+</LinearLayout>
