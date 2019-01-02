@@ -1,4 +1,19 @@
 <resources>
     <string name="app_name">Projekty z semestru pierwszego</string>
     <string name="title_activity_google_maps_map">Map</string>
+
+    <string name="spinner_no_value">Wybierz operacje</string>
+
+    <string-array name="spinner_sample_operations">
+        <item>Wybierz operacje...</item>
+        <item>Minimalna</item>
+        <item>Maksymalna</item>
+        <item>Mediana</item>
+        <item>Sortowanie</item>
+        <item>Liczby całkowite od n</item>
+        <item>Suma kwadratów od n</item>
+        <item>Dzielniki liczby n</item>
+        <item>Algorytm Euklidesa</item>
+    </string-array>
+
 </resources>

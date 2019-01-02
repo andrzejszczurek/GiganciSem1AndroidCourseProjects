@@ -35,7 +35,8 @@
         <activity android:name=".Dyktafon.DyktafonMainActivity" />
         <activity android:name=".KonwerterTekstuNaMowe.TextToSpeechMainActivity" />
         <activity android:name=".DataPicker.DataPickerMainActivity" />
-        <activity android:name=".ListaWithSharedPreferences.ListWithShMainActivity"></activity>
+        <activity android:name=".ListaWithSharedPreferences.ListWithShMainActivity" />
+        <activity android:name=".Dodatkowe.SpinnerMainActivity"></activity>
     </application>
 
 </manifest>

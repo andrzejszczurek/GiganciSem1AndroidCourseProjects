@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.example.andrzejszczurek.gigancisem1androidcourseprojects.Calculator.CalculatorMainActivity;
 import com.example.andrzejszczurek.gigancisem1androidcourseprojects.DataPicker.DataPickerMainActivity;
+import com.example.andrzejszczurek.gigancisem1androidcourseprojects.Dodatkowe.SpinnerMainActivity;
 import com.example.andrzejszczurek.gigancisem1androidcourseprojects.Dyktafon.DyktafonMainActivity;
 import com.example.andrzejszczurek.gigancisem1androidcourseprojects.GoogleMaps.GoogleMapsMainActivity;
 import com.example.andrzejszczurek.gigancisem1androidcourseprojects.KonwerterTekstuNaMowe.TextToSpeechMainActivity;
@@ -27,6 +28,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_main_navigate_data_picker).setOnClickListener(this);
         findViewById(R.id.btn_main_navigate_list_with_sh).setOnClickListener(this);
         findViewById(R.id.btn_main_navigate_mail_sender).setOnClickListener(this);
+        findViewById(R.id.btn_main_navigate_spinner_sample).setOnClickListener(this);
     }
 
     @Override
@@ -67,6 +69,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_main_navigate_mail_sender:
             {
                 NavigateToActivity(MailSenderMainActivity.class);
+                break;
+            }
+            case R.id.btn_main_navigate_spinner_sample:
+            {
+                NavigateToActivity(SpinnerMainActivity.class);
                 break;
             }
         }

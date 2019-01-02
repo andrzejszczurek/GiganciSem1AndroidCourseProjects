@@ -74,5 +74,14 @@
             android:layout_margin="10dp"
             android:background="#8cb7e9"/>
 
+        <Button
+            android:id="@+id/btn_main_navigate_spinner_sample"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8. Spinner"
+            android:layout_margin="10dp"
+            android:background="#8cb7e9"/>
+
     </LinearLayout>
 </ScrollView>
